@@ -1,3 +1,14 @@
+.vscode
+.idea
+
+# package directories
+node_modules
+jspm_packages
+dist
+
+# Serverless directories
+.serverless
+.build
 .idea
 
 # Jest directories
@@ -8,5 +19,17 @@ yarn-error.log
 test-report.xml
 dist
 node_modules
+.eslintcache
+
+test-report.xml
+
+#MacOS files
+**/.DS_Store
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+.dist
 
 docs/diagram.puml
